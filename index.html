@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>U-Tube Project</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="images/logo.png" alt="Logo" class="navbar__logo" />
+      <div class="navbar__search">
+        <div class="navbar__search-wrapper">
+          <input
+            type="text"
+            placeholder="Search"
+            class="navbar__search-input"
+          />
+          <img
+            src="images/search.png"
+            alt="Search Icon"
+            class="navbar__search-icon"
+          />
+          <img
+            src="images/voice-search.png"
+            alt="Voice Search"
+            class="navbar__mic-icon"
+          />
+        </div>
+      </div>
+      <div class="navbar__actions">
+        <img src="images/upload.png" alt="Upload" class="navbar__upload-icon" />
+        <img
+          src="images/notification.png"
+          alt="Notification"
+          class="navbar__notification-icon"
+        />
+      </div>
+    </nav>
+
+    <div class="filters">
+      <button class="filter-options active">All</button>
+      <button class="filter-options">CSS</button>
+      <button class="filter-options">Web Development</button>
+      <button class="filter-options">JavaScript</button>
+      <button class="filter-options">Trending</button>
+    </div>
+
+    <div class="content">
+      <aside class="sidebar">
+        <div class="shortcut-links">
+          <a href="#"
+            ><img src="images/home.png" alt="Home" />
+            <p>Home</p></a
+          >
+          <a href="#"
+            ><img src="images/shorts-icon.png" alt="Shorts" />
+            <p>Shorts</p></a
+          >
+          <a href="#"
+            ><img src="images/subscription.png" alt="Subscription" />
+            <p>Subscription</p></a
+          >
+          <a href="#"
+            ><img src="images/library.PNG" alt="Library" />
+            <p>Library</p></a
+          >
+          <a href="#"
+            ><img src="images/history.png" alt="History" />
+            <p>History</p></a
+          >
+          <a href="#"
+            ><img src="images/playlist.png" alt="Playlist" />
+            <p>Playlist</p></a
+          >
+          <a href="#"
+            ><img src="images/messages.png" alt="Messages" />
+            <p>Messages</p></a
+          >
+          <a href="#"
+            ><img src="images/show-more.png" alt="Show More" />
+            <p>Show More</p></a
+          >
+        </div>
+
+        <div class="subscribed-list">
+          <h3>SUBSCRIBED</h3>
+          <a href="#"
+            ><img src="images/gerard.png" alt="John Doe" />
+            <p>John Doe</p></a
+          >
+          <a href="#"
+            ><img src="images/simon.png" alt="Emily Smith" />
+            <p>Emily Smith</p></a
+          >
+          <a href="#"
+            ><img src="images/tom.png" alt="Michael Johnson" />
+            <p>Michael Johnson</p></a
+          >
+          <a href="#"
+            ><img src="images/megan.png" alt="Sarah Brown" />
+            <p>Sarah Brown</p></a
+          >
+          <a href="#"
+            ><img src="images/cameron.png" alt="David Wilson" />
+            <p>David Wilson</p></a
+          >
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <div class="video-list"></div>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
